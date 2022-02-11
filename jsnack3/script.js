@@ -18,3 +18,11 @@ while (numbers.length <=4){
     let answer = document.querySelector('.numbers');
     answer.innerHTML = `Hai inserito: ${numbers}.`;
 }
+
+let total = 0;
+for(i = 0; i < 5; i++){
+    total += numbers[i];
+}
+
+let totalOne = document.querySelector('.numbers');
+totalOne.innerHTML = `La somma dei numeri da te inseriti è ${total}`
