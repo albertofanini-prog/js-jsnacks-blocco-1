@@ -1,4 +1,7 @@
-let number = []
+//Stampare il cubo del numero
+//Il numero è indicato dall'user
+
+let number = [];
 
 let singleNumber = parseFloat(prompt('Inserisci un numero e calcola il cubo di esso.'));
 number.push(singleNumber);

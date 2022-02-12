@@ -1,4 +1,6 @@
-let number = 2
+//Stampare la potenza da 2 a 1000
+
+let number = 2;
 
 for (i = 1, i < 1001; i++){
 

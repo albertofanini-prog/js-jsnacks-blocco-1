@@ -1,5 +1,8 @@
-//Dichiarare il dato richeisto
-let numbers = []
+//Chiedere all'user di inserire un numero per 5 volte
+//Stampare la somma di tutti i numeri inseriti
+//Eseguire sia con for che con while
+
+let numbers = [];
 
 /*for (i = 0; i < 5; i++){
     let userNumber = parseInt( prompt ('Inserire un numero per 5 volte.'));
@@ -25,4 +28,4 @@ for(i = 0; i < 5; i++){
 }
 
 let totalOne = document.querySelector('.numbers');
-totalOne.innerHTML = `La somma dei numeri da te inseriti è ${total}`
+totalOne.innerHTML = `La somma dei numeri da te inseriti è ${total}.`;

@@ -12,4 +12,4 @@ if ( secondNumber > firstNumber){
 
 //Comunicare l'esito
 let answer = document.querySelector('.greater');
-answer.innerHTML = `${greater} è il numero maggiore.`
+answer.innerHTML = `${greater} è il numero maggiore.`;
